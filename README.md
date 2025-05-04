@@ -103,7 +103,7 @@ Projeto desenvolvido para fãs da **FURIA Esports**, combinando interatividade e
 
 ```
 
-2. Abra o arquivo Final projeto Furia.html no navegador para iniciar o quiz.
+2. Abra o arquivo: Final projeto Furia.html no navegador para iniciar o quiz.
 
 
 ---
