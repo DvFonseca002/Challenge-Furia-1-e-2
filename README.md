@@ -1,50 +1,130 @@
-# Challenge-Furia #1 e #2
-Este projeto da FURIA combina um quiz interativo com sistema de XP e um chatbot inteligente no site. O chatbot responde perguntas sobre o time, envia lembretes e curiosidades históricas. Totalmente responsivo, o site engaja os fãs com desafios e uma barra de progresso personalizada.
+🐾 FURIA Fan Hub
+Projeto desenvolvido para fãs da FURIA Esports, combinando interatividade e informação em um ambiente digital responsivo. O site conta com um quiz para testar o conhecimento do usuário, além de um chatbot integrado e páginas dedicadas à história, jogadores e conquistas da organização.
 
-# FURIA Fan Hub
+🚀 Funcionalidades
+index.html – Quiz Interativo
+Quiz Temático:
 
-Este projeto é um site interativo desenvolvido para os fãs da FURIA Esports. Ele inclui um quiz para avaliar o nível de fã, informações sobre a organização e um chatbot integrado para interação com os usuários.
+Perguntas relacionadas ao universo FURIA.
 
-## 🖥️ Funcionalidades
+Campo personalizado para o usuário digitar o nome de outro jogador favorito.
 
-### Página `Final Projeto Furia.html`
-- **Seções Informativas**:
-  - **Sobre a FURIA**: Informações sobre a organização.
-  - **Jogadores**: Lista de jogadores e suas funções.
-  - **Conquistas**: Destaques das principais conquistas.
-  - **Formulário de Contato**: Para os fãs enviarem mensagens.
-- **Chatbot Integrado**:
-  - Chatbot da Elfsight para interação direta.
-- **Links para Redes Sociais**:
-  - Ícones clicáveis para as redes sociais da FURIA.
- 
-  - ### Página `index.html`
-- **Quiz Interativo**:
-  - Perguntas relacionadas ao fandom da FURIA.
-  - Opção de digitar o nome de outro jogador na pergunta "Qual seu jogador favorito da FURIA?".
-- **Botão "Voltar"**:
-  - Um botão no canto inferior esquerdo que redireciona para a página `Final Projeto Furia.html`.
-- **Chatbot Integrado**:
-  - Chatbot da Elfsight para interação com os usuários.
-- **Design Responsivo**:
-  - Layout adaptável para diferentes tamanhos de tela.
+Cálculo de XP com base nas respostas e exibição de resultado com mensagem personalizada.
 
+Botão "Voltar":
 
-## 🎨 Identidade Visual
-- **Cores**:
-  - Fundo branco, preto para cabeçalhos e rodapés, e dourado para destaques.
-- **Fontes**:
-  - `Roboto` para um design moderno e consistente.
-- **Logo da FURIA**:
-  - Adicionada no cabeçalho como link clicável para o site oficial.
+Fixa no canto inferior esquerdo, redirecionando para a página institucional.
 
-## 📂 Estrutura do Projeto
-- `index.html`: Página principal com o quiz.
-- `Final Projeto Furia.html`: Página complementar com informações sobre a FURIA.
-- **Chatbot**:
-  - Integrado em ambas as páginas usando o script da Elfsight.
+Chatbot Integrado (Elfsight):
 
-## 🚀 Como Executar
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+Assistente interativo para comunicação com o visitante.
+
+Responsividade:
+
+Layout adaptado para desktop, tablet e mobile.
+
+Final Projeto Furia.html – Página Institucional
+Sobre a FURIA:
+
+Missão, valores e trajetória da organização.
+
+Jogadores:
+
+Lista dos atletas, funções e links extras.
+
+Conquistas:
+
+Destaques das principais vitórias da equipe.
+
+Contato:
+
+Formulário simples para envio de mensagens.
+
+Redes Sociais:
+
+Ícones com links para Twitter, Instagram e TikTok.
+
+🎨 Identidade Visual
+Cores:
+
+Branco para fundo, garantindo legibilidade.
+
+Preto para elementos-chave, reforçando a identidade da marca.
+
+Dourado em detalhes, conferindo sofisticação.
+
+Fontes:
+
+Roboto: Leitura fluida e moderna.
+
+Orbitron: Títulos com visual tech/esportivo.
+
+Logo:
+
+Presente no cabeçalho com link para o site oficial da FURIA.
+
+🛠️ Tecnologias Utilizadas
+HTML5
+Estrutura semântica clara com uso de <header>, <section>, <footer>, <form>, etc.
+
+CSS3
+Estilização com:
+
+Flexbox para layout fluido.
+
+Media queries para adaptação por dispositivo.
+
+Transições e animações para uma experiência envolvente.
+
+Gradientes e efeitos visuais em botões e barras de progresso.
+
+JavaScript (ES6)
+Lógica do quiz, cálculo de XP, interações dinâmicas.
+
+Manipulação do DOM para atualização em tempo real.
+
+Redirecionamento de páginas, animações e exibição condicional.
+
+Elfsight
+Integração via script assíncrono para o chatbot.
+
+Personalização do comportamento do assistente.
+
+📂 Estrutura do Projeto
+plaintext
+Copiar
+Editar
+/
+├── Final Projeto Furia.html      # Página institucional
+├── index.html                    # Página do quiz
+├── /css                          # Estilos customizados
+├── /js                           # Scripts interativos
+└── /assets                       # Imagens, logos, ícones, etc.
+📌 Como Executar Localmente
+Clone este repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/seu-repositorio.git
+Abra o arquivo index.html no navegador para iniciar o quiz.
+
+Use o botão "Voltar" para navegar à página institucional.
+
+📜 Créditos
+Desenvolvedor: Davi Fonseca
+Inspiração: A paixão pela FURIA Esports e sua comunidade de fãs.
+
+📄 Licença
+Este projeto foi criado para fins educacionais e demonstração técnica.
+Uso Comercial: Não permitido.
+Distribuição: Permitida com os devidos créditos.
+
+🌟 Melhorias Futuras
+Sistema de login e autenticação.
+
+Banco de dados para armazenar resultados dos quizzes.
+
+API para integração com outras plataformas.
+
+Acessibilidade aprimorada para pessoas com deficiência.
