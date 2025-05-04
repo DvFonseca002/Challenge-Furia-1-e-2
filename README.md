@@ -89,3 +89,51 @@ Projeto desenvolvido para fãs da **FURIA Esports**, combinando interatividade e
 ├── /css                          # Estilos customizados
 ├── /js                           # Scripts interativos
 └── /assets                       # Imagens, logos, ícones, etc.
+
+```
+
+---
+
+**📌 Como Executar Localmente**
+
+1. Clone este repositório:
+```plaintext
+/
+├──git clone https://github.com/seu-usuario/seu-repositorio.git
+
+```
+
+2. Abra o arquivo index.html no navegador para iniciar o quiz.
+
+3. Use o botão "Voltar" para navegar à página institucional.
+
+---
+
+**📜 Créditos**
+
+**- Desenvolvedor: Davi Fonseca**
+  - Responsável pela concepção, desenvolvimento e implementação do projeto.
+  - Inspiração:
+  - A paixão pela FURIA Esports e sua comunidade de fãs.
+
+---
+
+**🌟 Melhorias Futuras**
+
+  - Sistema de login e autenticação.
+  - Banco de dados para armazenar resultados dos quizzes.
+  - API para integração com outras plataformas.
+  - Acessibilidade aprimorada para pessoas com deficiência.
+
+---
+
+**📄 Licença**
+
+Este projeto foi criado para fins educacionais e demonstração técnica.
+Uso Comercial: Não permitido.
+Distribuição: Permitida com os devidos créditos.
+
+---
+
+
+
